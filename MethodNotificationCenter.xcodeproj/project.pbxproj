@@ -1,0 +1,1138 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		DDF7244C241756B200F58881 /* Run SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DDF7244D241756B200F58881 /* Build configuration list for PBXAggregateTarget "Run SwiftLint" */;
+			buildPhases = (
+				DDF72450241756B600F58881 /* Run SwiftLint */,
+			);
+			dependencies = (
+			);
+			name = "Run SwiftLint";
+			productName = "Run SwiftLint";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		DDB1DFF5240F67B600C20FED /* MethodNotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB1DFEB240F67B600C20FED /* MethodNotificationCenter.framework */; };
+		DDF7239B2414280200F58881 /* MethodNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF7238F2414280200F58881 /* MethodNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDF7239C2414280200F58881 /* MethodNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF723902414280200F58881 /* MethodNotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDF7239E2414280200F58881 /* mnc-fowarding-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDF723942414280200F58881 /* mnc-fowarding-x86_64.s */; };
+		DDF7239F2414280200F58881 /* mnc-fowarding-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDF723952414280200F58881 /* mnc-fowarding-arm64.s */; };
+		DDF723A12414280200F58881 /* MethodNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF723972414280200F58881 /* MethodNotification.m */; };
+		DDF723A22414280200F58881 /* mnc-fowarding-simulator-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDF723982414280200F58881 /* mnc-fowarding-simulator-x86_64.s */; };
+		DDF723A42414280200F58881 /* MethodNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF7239A2414280200F58881 /* MethodNotificationCenter.m */; };
+		DDF723C32414329F00F58881 /* MethodNotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF723BA2414329E00F58881 /* MethodNotificationCenter.framework */; };
+		DDF723D2241432AF00F58881 /* MethodNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF7238F2414280200F58881 /* MethodNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDF723D3241432AF00F58881 /* MethodNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF723902414280200F58881 /* MethodNotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDF723D4241432B500F58881 /* MethodNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF723972414280200F58881 /* MethodNotification.m */; };
+		DDF723D5241432B500F58881 /* MethodNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF7239A2414280200F58881 /* MethodNotificationCenter.m */; };
+		DDF723D6241432B500F58881 /* mnc-fowarding-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDF723942414280200F58881 /* mnc-fowarding-x86_64.s */; };
+		DDF723D7241432B500F58881 /* mnc-fowarding-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDF723952414280200F58881 /* mnc-fowarding-arm64.s */; };
+		DDF723D8241432B500F58881 /* mnc-fowarding-simulator-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDF723982414280200F58881 /* mnc-fowarding-simulator-x86_64.s */; };
+		DDF723E72414330700F58881 /* MethodNotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF723DE2414330700F58881 /* MethodNotificationCenter.framework */; };
+		DDF723F62414331A00F58881 /* MethodNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF723972414280200F58881 /* MethodNotification.m */; };
+		DDF723F72414331A00F58881 /* MethodNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF7239A2414280200F58881 /* MethodNotificationCenter.m */; };
+		DDF723F82414331A00F58881 /* mnc-fowarding-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDF723942414280200F58881 /* mnc-fowarding-x86_64.s */; };
+		DDF723F92414331A00F58881 /* mnc-fowarding-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDF723952414280200F58881 /* mnc-fowarding-arm64.s */; };
+		DDF723FA2414331A00F58881 /* mnc-fowarding-simulator-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDF723982414280200F58881 /* mnc-fowarding-simulator-x86_64.s */; };
+		DDF723FB2414331E00F58881 /* MethodNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF7238F2414280200F58881 /* MethodNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDF723FC2414331E00F58881 /* MethodNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF723902414280200F58881 /* MethodNotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDF723FE2415F46900F58881 /* mnc-fowarding-simulator-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DDF723FD2415F46900F58881 /* mnc-fowarding-simulator-i386.s */; };
+		DDF723FF2415F46900F58881 /* mnc-fowarding-simulator-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DDF723FD2415F46900F58881 /* mnc-fowarding-simulator-i386.s */; };
+		DDF724002415F46900F58881 /* mnc-fowarding-simulator-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DDF723FD2415F46900F58881 /* mnc-fowarding-simulator-i386.s */; };
+		DDF724022415F47400F58881 /* mnc-fowarding-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DDF724012415F47400F58881 /* mnc-fowarding-i386.s */; };
+		DDF724032415F47400F58881 /* mnc-fowarding-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DDF724012415F47400F58881 /* mnc-fowarding-i386.s */; };
+		DDF724042415F47400F58881 /* mnc-fowarding-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DDF724012415F47400F58881 /* mnc-fowarding-i386.s */; };
+		DDF724062415F48300F58881 /* mnc-fowarding-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = DDF724052415F48300F58881 /* mnc-fowarding-arm.s */; };
+		DDF724072415F48300F58881 /* mnc-fowarding-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = DDF724052415F48300F58881 /* mnc-fowarding-arm.s */; };
+		DDF724082415F48300F58881 /* mnc-fowarding-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = DDF724052415F48300F58881 /* mnc-fowarding-arm.s */; };
+		DDF724252416A4C200F58881 /* MethodNotificationObservable.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF724242416A4C200F58881 /* MethodNotificationObservable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDF724262416A4C200F58881 /* MethodNotificationObservable.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF724242416A4C200F58881 /* MethodNotificationObservable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDF724272416A4C200F58881 /* MethodNotificationObservable.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF724242416A4C200F58881 /* MethodNotificationObservable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDF7242A2416A53D00F58881 /* MethodNotificationObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF724292416A53D00F58881 /* MethodNotificationObservable.m */; };
+		DDF7242B2416A53D00F58881 /* MethodNotificationObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF724292416A53D00F58881 /* MethodNotificationObservable.m */; };
+		DDF7242C2416A53D00F58881 /* MethodNotificationObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF724292416A53D00F58881 /* MethodNotificationObservable.m */; };
+		DDF724582417586800F58881 /* MethodNotificationCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF724542417586800F58881 /* MethodNotificationCenterTests.swift */; };
+		DDF724592417586800F58881 /* MethodNotificationCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF724542417586800F58881 /* MethodNotificationCenterTests.swift */; };
+		DDF7245A2417586800F58881 /* MethodNotificationCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF724542417586800F58881 /* MethodNotificationCenterTests.swift */; };
+		DDF7245D241758E100F58881 /* MethodNotificationCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF7245C241758E100F58881 /* MethodNotificationCenterTests.m */; };
+		DDF7245E241758E100F58881 /* MethodNotificationCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF7245C241758E100F58881 /* MethodNotificationCenterTests.m */; };
+		DDF7245F241758E100F58881 /* MethodNotificationCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF7245C241758E100F58881 /* MethodNotificationCenterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDB1DFF6240F67B600C20FED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDB1DFE2240F67B600C20FED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDB1DFEA240F67B600C20FED;
+			remoteInfo = MethodNotificationCenter;
+		};
+		DDF723C42414329F00F58881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDB1DFE2240F67B600C20FED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDF723B92414329E00F58881;
+			remoteInfo = "MethodNotificationCenter macOS";
+		};
+		DDF723E82414330700F58881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDB1DFE2240F67B600C20FED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDF723DD2414330700F58881;
+			remoteInfo = "MethodNotificationCenter tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDB1DFEB240F67B600C20FED /* MethodNotificationCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MethodNotificationCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB1DFF4240F67B600C20FED /* MethodNotificationCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MethodNotificationCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF7238F2414280200F58881 /* MethodNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodNotification.h; sourceTree = "<group>"; };
+		DDF723902414280200F58881 /* MethodNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodNotificationCenter.h; sourceTree = "<group>"; };
+		DDF723912414280200F58881 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		DDF723942414280200F58881 /* mnc-fowarding-x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "mnc-fowarding-x86_64.s"; sourceTree = "<group>"; };
+		DDF723952414280200F58881 /* mnc-fowarding-arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "mnc-fowarding-arm64.s"; sourceTree = "<group>"; };
+		DDF723972414280200F58881 /* MethodNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodNotification.m; sourceTree = "<group>"; };
+		DDF723982414280200F58881 /* mnc-fowarding-simulator-x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "mnc-fowarding-simulator-x86_64.s"; sourceTree = "<group>"; };
+		DDF7239A2414280200F58881 /* MethodNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodNotificationCenter.m; sourceTree = "<group>"; };
+		DDF723AA2414283B00F58881 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		DDF723AB2414284200F58881 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DDF723AC2414284A00F58881 /* MethodNotificationCenter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MethodNotificationCenter-Info.plist"; path = "Plists/MethodNotificationCenter-Info.plist"; sourceTree = "<group>"; };
+		DDF723AD2414284A00F58881 /* MethodNotificationCenterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MethodNotificationCenterTests-Info.plist"; path = "Plists/MethodNotificationCenterTests-Info.plist"; sourceTree = "<group>"; };
+		DDF723AF2414289800F58881 /* MethodNotificationCenter.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MethodNotificationCenter.podspec; sourceTree = "<group>"; };
+		DDF723B0241429F500F58881 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DDF723B124142A1E00F58881 /* codecov.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codecov.yml; sourceTree = "<group>"; };
+		DDF723B224142A7000F58881 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		DDF723BA2414329E00F58881 /* MethodNotificationCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MethodNotificationCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF723C22414329F00F58881 /* MethodNotificationCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MethodNotificationCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF723DE2414330700F58881 /* MethodNotificationCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MethodNotificationCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF723E62414330700F58881 /* MethodNotificationCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MethodNotificationCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF723FD2415F46900F58881 /* mnc-fowarding-simulator-i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "mnc-fowarding-simulator-i386.s"; sourceTree = "<group>"; };
+		DDF724012415F47400F58881 /* mnc-fowarding-i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "mnc-fowarding-i386.s"; sourceTree = "<group>"; };
+		DDF724052415F48300F58881 /* mnc-fowarding-arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "mnc-fowarding-arm.s"; sourceTree = "<group>"; };
+		DDF724242416A4C200F58881 /* MethodNotificationObservable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodNotificationObservable.h; sourceTree = "<group>"; };
+		DDF724292416A53D00F58881 /* MethodNotificationObservable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodNotificationObservable.m; sourceTree = "<group>"; };
+		DDF724542417586800F58881 /* MethodNotificationCenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MethodNotificationCenterTests.swift; sourceTree = "<group>"; };
+		DDF7245C241758E100F58881 /* MethodNotificationCenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodNotificationCenterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB1DFE8240F67B600C20FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB1DFF1240F67B600C20FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB1DFF5240F67B600C20FED /* MethodNotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF723B72414329E00F58881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF723BF2414329F00F58881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF723C32414329F00F58881 /* MethodNotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF723DB2414330700F58881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF723E32414330700F58881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF723E72414330700F58881 /* MethodNotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDB1DFE1240F67B600C20FED = {
+			isa = PBXGroup;
+			children = (
+				DDB1DFED240F67B600C20FED /* MethodNotificationCenter */,
+				DDB1DFEC240F67B600C20FED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDB1DFEC240F67B600C20FED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB1DFEB240F67B600C20FED /* MethodNotificationCenter.framework */,
+				DDB1DFF4240F67B600C20FED /* MethodNotificationCenterTests.xctest */,
+				DDF723BA2414329E00F58881 /* MethodNotificationCenter.framework */,
+				DDF723C22414329F00F58881 /* MethodNotificationCenterTests.xctest */,
+				DDF723DE2414330700F58881 /* MethodNotificationCenter.framework */,
+				DDF723E62414330700F58881 /* MethodNotificationCenterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB1DFED240F67B600C20FED /* MethodNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				DDF7238C2414280200F58881 /* Sources */,
+				DDF723A52414281700F58881 /* Tests */,
+				DDF723A92414282B00F58881 /* Supporting Files */,
+			);
+			name = MethodNotificationCenter;
+			sourceTree = "<group>";
+		};
+		DDF7238C2414280200F58881 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DDF7238D2414280200F58881 /* MethodNotificationCenter */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		DDF7238D2414280200F58881 /* MethodNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				DDF7238E2414280200F58881 /* include */,
+				DDF723922414280200F58881 /* src */,
+			);
+			path = MethodNotificationCenter;
+			sourceTree = "<group>";
+		};
+		DDF7238E2414280200F58881 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				DDF7238F2414280200F58881 /* MethodNotification.h */,
+				DDF723902414280200F58881 /* MethodNotificationCenter.h */,
+				DDF724242416A4C200F58881 /* MethodNotificationObservable.h */,
+				DDF723912414280200F58881 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		DDF723922414280200F58881 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DDF723972414280200F58881 /* MethodNotification.m */,
+				DDF7239A2414280200F58881 /* MethodNotificationCenter.m */,
+				DDF724292416A53D00F58881 /* MethodNotificationObservable.m */,
+				DDF723AE2414285300F58881 /* Assembly */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		DDF723A52414281700F58881 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DDF7245B241758E100F58881 /* MethodNotificationCenterObjCTests */,
+				DDF724532417586800F58881 /* MethodNotificationCenterSwiftTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		DDF723A92414282B00F58881 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDF723AF2414289800F58881 /* MethodNotificationCenter.podspec */,
+				DDF723AA2414283B00F58881 /* Package.swift */,
+				DDF723B124142A1E00F58881 /* codecov.yml */,
+				DDF723B224142A7000F58881 /* .swiftlint.yml */,
+				DDF723AB2414284200F58881 /* README.md */,
+				DDF723B0241429F500F58881 /* LICENSE */,
+				DDF723AC2414284A00F58881 /* MethodNotificationCenter-Info.plist */,
+				DDF723AD2414284A00F58881 /* MethodNotificationCenterTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDF723AE2414285300F58881 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				DDF724052415F48300F58881 /* mnc-fowarding-arm.s */,
+				DDF723952414280200F58881 /* mnc-fowarding-arm64.s */,
+				DDF724012415F47400F58881 /* mnc-fowarding-i386.s */,
+				DDF723942414280200F58881 /* mnc-fowarding-x86_64.s */,
+				DDF723FD2415F46900F58881 /* mnc-fowarding-simulator-i386.s */,
+				DDF723982414280200F58881 /* mnc-fowarding-simulator-x86_64.s */,
+			);
+			name = Assembly;
+			sourceTree = "<group>";
+		};
+		DDF724532417586800F58881 /* MethodNotificationCenterSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDF724542417586800F58881 /* MethodNotificationCenterTests.swift */,
+			);
+			path = MethodNotificationCenterSwiftTests;
+			sourceTree = "<group>";
+		};
+		DDF7245B241758E100F58881 /* MethodNotificationCenterObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDF7245C241758E100F58881 /* MethodNotificationCenterTests.m */,
+			);
+			path = MethodNotificationCenterObjCTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DDB1DFE6240F67B600C20FED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF7239B2414280200F58881 /* MethodNotification.h in Headers */,
+				DDF7239C2414280200F58881 /* MethodNotificationCenter.h in Headers */,
+				DDF724252416A4C200F58881 /* MethodNotificationObservable.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF723B52414329E00F58881 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF723D2241432AF00F58881 /* MethodNotification.h in Headers */,
+				DDF723D3241432AF00F58881 /* MethodNotificationCenter.h in Headers */,
+				DDF724262416A4C200F58881 /* MethodNotificationObservable.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF723D92414330700F58881 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF723FB2414331E00F58881 /* MethodNotification.h in Headers */,
+				DDF723FC2414331E00F58881 /* MethodNotificationCenter.h in Headers */,
+				DDF724272416A4C200F58881 /* MethodNotificationObservable.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DDB1DFEA240F67B600C20FED /* MethodNotificationCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB1DFFF240F67B600C20FED /* Build configuration list for PBXNativeTarget "MethodNotificationCenter" */;
+			buildPhases = (
+				DDB1DFE6240F67B600C20FED /* Headers */,
+				DDB1DFE7240F67B600C20FED /* Sources */,
+				DDB1DFE8240F67B600C20FED /* Frameworks */,
+				DDB1DFE9240F67B600C20FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MethodNotificationCenter;
+			productName = MethodNotificationCenter;
+			productReference = DDB1DFEB240F67B600C20FED /* MethodNotificationCenter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDB1DFF3240F67B600C20FED /* MethodNotificationCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB1E002240F67B600C20FED /* Build configuration list for PBXNativeTarget "MethodNotificationCenterTests" */;
+			buildPhases = (
+				DDB1DFF0240F67B600C20FED /* Sources */,
+				DDB1DFF1240F67B600C20FED /* Frameworks */,
+				DDB1DFF2240F67B600C20FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDB1DFF7240F67B600C20FED /* PBXTargetDependency */,
+			);
+			name = MethodNotificationCenterTests;
+			productName = MethodNotificationCenterTests;
+			productReference = DDB1DFF4240F67B600C20FED /* MethodNotificationCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDF723B92414329E00F58881 /* MethodNotificationCenter macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF723CB2414329F00F58881 /* Build configuration list for PBXNativeTarget "MethodNotificationCenter macOS" */;
+			buildPhases = (
+				DDF723B52414329E00F58881 /* Headers */,
+				DDF723B62414329E00F58881 /* Sources */,
+				DDF723B72414329E00F58881 /* Frameworks */,
+				DDF723B82414329E00F58881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MethodNotificationCenter macOS";
+			productName = "MethodNotificationCenter macOS";
+			productReference = DDF723BA2414329E00F58881 /* MethodNotificationCenter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDF723C12414329F00F58881 /* MethodNotificationCenter macOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF723CE2414329F00F58881 /* Build configuration list for PBXNativeTarget "MethodNotificationCenter macOS Tests" */;
+			buildPhases = (
+				DDF723BE2414329F00F58881 /* Sources */,
+				DDF723BF2414329F00F58881 /* Frameworks */,
+				DDF723C02414329F00F58881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDF723C52414329F00F58881 /* PBXTargetDependency */,
+			);
+			name = "MethodNotificationCenter macOS Tests";
+			productName = "MethodNotificationCenter macOSTests";
+			productReference = DDF723C22414329F00F58881 /* MethodNotificationCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDF723DD2414330700F58881 /* MethodNotificationCenter tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF723EF2414330700F58881 /* Build configuration list for PBXNativeTarget "MethodNotificationCenter tvOS" */;
+			buildPhases = (
+				DDF723D92414330700F58881 /* Headers */,
+				DDF723DA2414330700F58881 /* Sources */,
+				DDF723DB2414330700F58881 /* Frameworks */,
+				DDF723DC2414330700F58881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MethodNotificationCenter tvOS";
+			productName = "MethodNotificationCenter tvOS";
+			productReference = DDF723DE2414330700F58881 /* MethodNotificationCenter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDF723E52414330700F58881 /* MethodNotificationCenter tvOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF723F22414330700F58881 /* Build configuration list for PBXNativeTarget "MethodNotificationCenter tvOS Tests" */;
+			buildPhases = (
+				DDF723E22414330700F58881 /* Sources */,
+				DDF723E32414330700F58881 /* Frameworks */,
+				DDF723E42414330700F58881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDF723E92414330700F58881 /* PBXTargetDependency */,
+			);
+			name = "MethodNotificationCenter tvOS Tests";
+			productName = "MethodNotificationCenter tvOSTests";
+			productReference = DDF723E62414330700F58881 /* MethodNotificationCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB1DFE2240F67B600C20FED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = SomeRandomiOSDev;
+				TargetAttributes = {
+					DDB1DFEA240F67B600C20FED = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					DDB1DFF3240F67B600C20FED = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					DDF723B92414329E00F58881 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					DDF723C12414329F00F58881 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					DDF723DD2414330700F58881 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					DDF723E52414330700F58881 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					DDF7244C241756B200F58881 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DDB1DFE5240F67B600C20FED /* Build configuration list for PBXProject "MethodNotificationCenter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDB1DFE1240F67B600C20FED;
+			productRefGroup = DDB1DFEC240F67B600C20FED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDB1DFEA240F67B600C20FED /* MethodNotificationCenter */,
+				DDB1DFF3240F67B600C20FED /* MethodNotificationCenterTests */,
+				DDF723B92414329E00F58881 /* MethodNotificationCenter macOS */,
+				DDF723C12414329F00F58881 /* MethodNotificationCenter macOS Tests */,
+				DDF723DD2414330700F58881 /* MethodNotificationCenter tvOS */,
+				DDF723E52414330700F58881 /* MethodNotificationCenter tvOS Tests */,
+				DDF7244C241756B200F58881 /* Run SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDB1DFE9240F67B600C20FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB1DFF2240F67B600C20FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF723B82414329E00F58881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF723C02414329F00F58881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF723DC2414330700F58881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF723E42414330700F58881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DDF72450241756B600F58881 /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDB1DFE7240F67B600C20FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF7239F2414280200F58881 /* mnc-fowarding-arm64.s in Sources */,
+				DDF7239E2414280200F58881 /* mnc-fowarding-x86_64.s in Sources */,
+				DDF723A22414280200F58881 /* mnc-fowarding-simulator-x86_64.s in Sources */,
+				DDF7242A2416A53D00F58881 /* MethodNotificationObservable.m in Sources */,
+				DDF723FE2415F46900F58881 /* mnc-fowarding-simulator-i386.s in Sources */,
+				DDF723A42414280200F58881 /* MethodNotificationCenter.m in Sources */,
+				DDF724062415F48300F58881 /* mnc-fowarding-arm.s in Sources */,
+				DDF723A12414280200F58881 /* MethodNotification.m in Sources */,
+				DDF724022415F47400F58881 /* mnc-fowarding-i386.s in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB1DFF0240F67B600C20FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF7245D241758E100F58881 /* MethodNotificationCenterTests.m in Sources */,
+				DDF724582417586800F58881 /* MethodNotificationCenterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF723B62414329E00F58881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF723D5241432B500F58881 /* MethodNotificationCenter.m in Sources */,
+				DDF723D7241432B500F58881 /* mnc-fowarding-arm64.s in Sources */,
+				DDF723D8241432B500F58881 /* mnc-fowarding-simulator-x86_64.s in Sources */,
+				DDF7242B2416A53D00F58881 /* MethodNotificationObservable.m in Sources */,
+				DDF723FF2415F46900F58881 /* mnc-fowarding-simulator-i386.s in Sources */,
+				DDF723D6241432B500F58881 /* mnc-fowarding-x86_64.s in Sources */,
+				DDF724072415F48300F58881 /* mnc-fowarding-arm.s in Sources */,
+				DDF723D4241432B500F58881 /* MethodNotification.m in Sources */,
+				DDF724032415F47400F58881 /* mnc-fowarding-i386.s in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF723BE2414329F00F58881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF7245E241758E100F58881 /* MethodNotificationCenterTests.m in Sources */,
+				DDF724592417586800F58881 /* MethodNotificationCenterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF723DA2414330700F58881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF723F72414331A00F58881 /* MethodNotificationCenter.m in Sources */,
+				DDF723F92414331A00F58881 /* mnc-fowarding-arm64.s in Sources */,
+				DDF723FA2414331A00F58881 /* mnc-fowarding-simulator-x86_64.s in Sources */,
+				DDF7242C2416A53D00F58881 /* MethodNotificationObservable.m in Sources */,
+				DDF724002415F46900F58881 /* mnc-fowarding-simulator-i386.s in Sources */,
+				DDF723F82414331A00F58881 /* mnc-fowarding-x86_64.s in Sources */,
+				DDF724082415F48300F58881 /* mnc-fowarding-arm.s in Sources */,
+				DDF723F62414331A00F58881 /* MethodNotification.m in Sources */,
+				DDF724042415F47400F58881 /* mnc-fowarding-i386.s in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF723E22414330700F58881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF7245F241758E100F58881 /* MethodNotificationCenterTests.m in Sources */,
+				DDF7245A2417586800F58881 /* MethodNotificationCenterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDB1DFF7240F67B600C20FED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDB1DFEA240F67B600C20FED /* MethodNotificationCenter */;
+			targetProxy = DDB1DFF6240F67B600C20FED /* PBXContainerItemProxy */;
+		};
+		DDF723C52414329F00F58881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDF723B92414329E00F58881 /* MethodNotificationCenter macOS */;
+			targetProxy = DDF723C42414329F00F58881 /* PBXContainerItemProxy */;
+		};
+		DDF723E92414330700F58881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDF723DD2414330700F58881 /* MethodNotificationCenter tvOS */;
+			targetProxy = DDF723E82414330700F58881 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDB1DFFD240F67B600C20FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		DDB1DFFE240F67B600C20FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		DDB1E000240F67B600C20FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Plists/MethodNotificationCenter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.somerandomiosdev.methodnotificationcenter;
+				PRODUCT_NAME = MethodNotificationCenter;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDB1E001240F67B600C20FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Plists/MethodNotificationCenter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.somerandomiosdev.methodnotificationcenter;
+				PRODUCT_NAME = MethodNotificationCenter;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDB1E003240F67B600C20FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Plists/MethodNotificationCenterTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.somerandomiosdev.methodnotificationcentertests;
+				PRODUCT_NAME = MethodNotificationCenterTests;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDB1E004240F67B600C20FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Plists/MethodNotificationCenterTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.somerandomiosdev.methodnotificationcentertests;
+				PRODUCT_NAME = MethodNotificationCenterTests;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDF723CC2414329F00F58881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Plists/MethodNotificationCenter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.somerandomiosdev.methodnotificationcenter;
+				PRODUCT_NAME = MethodNotificationCenter;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DDF723CD2414329F00F58881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Plists/MethodNotificationCenter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.somerandomiosdev.methodnotificationcenter;
+				PRODUCT_NAME = MethodNotificationCenter;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DDF723CF2414329F00F58881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Plists/MethodNotificationCenterTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.somerandomiosdev.methodnotificationcentertests;
+				PRODUCT_NAME = MethodNotificationCenterTests;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DDF723D02414329F00F58881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Plists/MethodNotificationCenterTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.somerandomiosdev.methodnotificationcentertests;
+				PRODUCT_NAME = MethodNotificationCenterTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DDF723F02414330700F58881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Plists/MethodNotificationCenter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.somerandomiosdev.methodnotificationcenter;
+				PRODUCT_NAME = MethodNotificationCenter;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		DDF723F12414330700F58881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Plists/MethodNotificationCenter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.somerandomiosdev.methodnotificationcenter;
+				PRODUCT_NAME = MethodNotificationCenter;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		DDF723F32414330700F58881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Plists/MethodNotificationCenterTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.somerandomiosdev.methodnotificationcentertests;
+				PRODUCT_NAME = MethodNotificationCenterTests;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		DDF723F42414330700F58881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Plists/MethodNotificationCenterTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.somerandomiosdev.methodnotificationcentertests;
+				PRODUCT_NAME = MethodNotificationCenterTests;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Release;
+		};
+		DDF7244E241756B200F58881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDF7244F241756B200F58881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDB1DFE5240F67B600C20FED /* Build configuration list for PBXProject "MethodNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB1DFFD240F67B600C20FED /* Debug */,
+				DDB1DFFE240F67B600C20FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB1DFFF240F67B600C20FED /* Build configuration list for PBXNativeTarget "MethodNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB1E000240F67B600C20FED /* Debug */,
+				DDB1E001240F67B600C20FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB1E002240F67B600C20FED /* Build configuration list for PBXNativeTarget "MethodNotificationCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB1E003240F67B600C20FED /* Debug */,
+				DDB1E004240F67B600C20FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF723CB2414329F00F58881 /* Build configuration list for PBXNativeTarget "MethodNotificationCenter macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF723CC2414329F00F58881 /* Debug */,
+				DDF723CD2414329F00F58881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF723CE2414329F00F58881 /* Build configuration list for PBXNativeTarget "MethodNotificationCenter macOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF723CF2414329F00F58881 /* Debug */,
+				DDF723D02414329F00F58881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF723EF2414330700F58881 /* Build configuration list for PBXNativeTarget "MethodNotificationCenter tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF723F02414330700F58881 /* Debug */,
+				DDF723F12414330700F58881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF723F22414330700F58881 /* Build configuration list for PBXNativeTarget "MethodNotificationCenter tvOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF723F32414330700F58881 /* Debug */,
+				DDF723F42414330700F58881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF7244D241756B200F58881 /* Build configuration list for PBXAggregateTarget "Run SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF7244E241756B200F58881 /* Debug */,
+				DDF7244F241756B200F58881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDB1DFE2240F67B600C20FED /* Project object */;
+}

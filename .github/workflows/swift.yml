@@ -1,0 +1,22 @@
+name: Build
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: macOS-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run XCTests
+      run: |
+        xcodebuild -scheme "MethodNotificationCenter" -destination "platform=iOS Simulator,name=iPhone 11 Pro Max" -configuration Debug ONLY_ACTIVE_ARCH=YES test
+        xcodebuild -scheme "MethodNotificationCenter macOS" -destination "platform=macOS" -configuration Debug ONLY_ACTIVE_ARCH=YES test
+        xcodebuild -scheme "MethodNotificationCenter tvOS" -destination "platform=tvOS Simulator,name=Apple TV 4K" -configuration Debug ONLY_ACTIVE_ARCH=YES test
+    - name: Swift Package Build & Test
+      run: |
+        swift build -v
+        swift test -v --enable-code-coverage
+    - name: Upload Code Coverage
+      run: |
+        xcrun llvm-cov export -format="lcov" .build/debug/MethodNotificationCenterPackageTests.xctest/Contents/MacOS/MethodNotificationCenterPackageTests -instr-profile .build/debug/codecov/default.profdata > info.lcov
+        bash <(curl https://codecov.io/bash)
