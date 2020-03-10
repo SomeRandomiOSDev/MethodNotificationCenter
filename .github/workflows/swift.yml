@@ -20,3 +20,5 @@ jobs:
       run: |
         xcrun llvm-cov export -format="lcov" .build/debug/MethodNotificationCenterPackageTests.xctest/Contents/MacOS/MethodNotificationCenterPackageTests -instr-profile .build/debug/codecov/default.profdata > info.lcov
         bash <(curl https://codecov.io/bash)
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
