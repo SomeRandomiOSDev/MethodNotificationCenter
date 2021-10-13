@@ -2,27 +2,17 @@
 //  MethodNotificationCenterTests.swift
 //  MethodNotificationCenterTests
 //
-//  Created by Joseph Newton on 3/9/20.
-//  Copyright © 2020 SomeRandomiOSDev. All rights reserved.
+//  Copyright © 2021 SomeRandomiOSDev. All rights reserved.
 //
 
 import MethodNotificationCenter
 import XCTest
 
-@objc class TestClass1: NSObject {
-    var value: Int = 0
-    @objc func increment() {
-        value += 1
-    }
-    @objc func incrementBy2() {
-        value += 2
-    }
-    @objc func noop() {
-        /* Nothing to do */
-    }
-}
+// MARK: - MethodNotificationCenterTests Definition
 
 class MethodNotificationCenterTests: XCTestCase {
+
+    // MARK: Test Methods
 
     func testRecivingNotifications1() {
         let test = TestClass1()
@@ -37,13 +27,6 @@ class MethodNotificationCenterTests: XCTestCase {
         XCTAssertEqual(test.value, 3)
 
         MethodNotificationCenter.removeObserver(observer)
-    }
-
-    @objc class TestClass2: NSObject {
-        var value: Int = 0
-        @objc func increment() {
-            value += 1
-        }
     }
 
     func testRecivingNotifications2() {
@@ -62,13 +45,6 @@ class MethodNotificationCenterTests: XCTestCase {
     }
 
     func testRecivingNotifications3() {
-        @objc class TestClass3: NSObject {
-            var value: Int = 0
-            @objc func increment() {
-                value += 1
-            }
-        }
-
         let test = TestClass3()
         let observer = MethodNotificationCenter.addObserver(for: #selector(TestClass1.increment), object: test) { notification in
             XCTAssertEqual(test.value, (notification.isPriorToMethodCall ? 0 : 2))
@@ -87,11 +63,11 @@ class MethodNotificationCenterTests: XCTestCase {
         let test = TestClass1()
         let test2 = TestClass1()
 
-        let observer = MethodNotificationCenter.addObserver(for: #selector(TestClass1.increment), object:test) { notification in
+        let observer = MethodNotificationCenter.addObserver(for: #selector(TestClass1.increment), object: test) { notification in
             XCTAssertEqual(test.value, (notification.isPriorToMethodCall ? 0 : 2))
             test.value += 1
         }
-        let observer2 = MethodNotificationCenter.addObserver(for: #selector(TestClass1.increment), object:test2) { notification in
+        let observer2 = MethodNotificationCenter.addObserver(for: #selector(TestClass1.increment), object: test2) { notification in
             XCTAssertEqual(test2.value, (notification.isPriorToMethodCall ? 0 : 2))
             test2.value += 1
         }
@@ -112,11 +88,11 @@ class MethodNotificationCenterTests: XCTestCase {
     func testMultipleNotificationsOnSameObject() {
         let test = TestClass1()
 
-        let observer = MethodNotificationCenter.addObserver(for: #selector(TestClass1.increment), object:test) { notification in
+        let observer = MethodNotificationCenter.addObserver(for: #selector(TestClass1.increment), object: test) { notification in
             XCTAssertEqual(test.value, (notification.isPriorToMethodCall ? 0 : 2))
             test.value += 1
         }
-        let observer2 = MethodNotificationCenter.addObserver(for: #selector(TestClass1.incrementBy2), object:test) { notification in
+        let observer2 = MethodNotificationCenter.addObserver(for: #selector(TestClass1.incrementBy2), object: test) { notification in
             XCTAssertEqual(test.value, (notification.isPriorToMethodCall ? 3 : 6))
             test.value += 1
         }
@@ -142,19 +118,19 @@ class MethodNotificationCenterTests: XCTestCase {
         let test = TestClass1()
         let test2 = TestClass1()
 
-        let observer = MethodNotificationCenter.addObserver(for: #selector(TestClass1.increment), object:test) { notification in
+        let observer = MethodNotificationCenter.addObserver(for: #selector(TestClass1.increment), object: test) { notification in
             XCTAssertEqual(test.value, (notification.isPriorToMethodCall ? 0 : 2))
             test.value += 1
         }
-        let observer2 = MethodNotificationCenter.addObserver(for: #selector(TestClass1.incrementBy2), object:test) { notification in
+        let observer2 = MethodNotificationCenter.addObserver(for: #selector(TestClass1.incrementBy2), object: test) { notification in
             XCTAssertEqual(test.value, (notification.isPriorToMethodCall ? 3 : 6))
             test.value += 1
         }
-        let observer3 = MethodNotificationCenter.addObserver(for: #selector(TestClass1.increment), object:test2) { notification in
+        let observer3 = MethodNotificationCenter.addObserver(for: #selector(TestClass1.increment), object: test2) { notification in
             XCTAssertEqual(test2.value, (notification.isPriorToMethodCall ? 0 : 2))
             test2.value += 1
         }
-        let observer4 = MethodNotificationCenter.addObserver(for: #selector(TestClass1.incrementBy2), object:test2) { notification in
+        let observer4 = MethodNotificationCenter.addObserver(for: #selector(TestClass1.incrementBy2), object: test2) { notification in
             XCTAssertEqual(test2.value, (notification.isPriorToMethodCall ? 3 : 6))
             test2.value += 1
         }
@@ -194,24 +170,24 @@ class MethodNotificationCenterTests: XCTestCase {
     func testDuplicateNotificationsOnSameObject() {
         let test = TestClass1()
 
-        let observer = MethodNotificationCenter.addObserver(for: #selector(TestClass1.noop), object:test) { notification in
+        let observer = MethodNotificationCenter.addObserver(for: #selector(TestClass1.noop), object: test) { notification in
             XCTAssertEqual(test.value, (notification.isPriorToMethodCall ? 0 : 4))
             test.value += 1
         }
-        let observer2 = MethodNotificationCenter.addObserver(for: #selector(TestClass1.noop), object:test) { notification in
+        let observer2 = MethodNotificationCenter.addObserver(for: #selector(TestClass1.noop), object: test) { notification in
             XCTAssertEqual(test.value, (notification.isPriorToMethodCall ? 1 : 5))
             test.value += 1
         }
-        let observer3 = MethodNotificationCenter.addObserver(for: #selector(TestClass1.noop), object:test) { notification in
+        let observer3 = MethodNotificationCenter.addObserver(for: #selector(TestClass1.noop), object: test) { notification in
             XCTAssertEqual(test.value, (notification.isPriorToMethodCall ? 2 : 6))
             test.value += 1
         }
-        let observer4 = MethodNotificationCenter.addObserver(for: #selector(TestClass1.noop), object:test) { notification in
+        let observer4 = MethodNotificationCenter.addObserver(for: #selector(TestClass1.noop), object: test) { notification in
             XCTAssertEqual(test.value, (notification.isPriorToMethodCall ? 3 : 7))
             test.value += 1
         }
 
-        XCTAssertEqual(test.value, 0);
+        XCTAssertEqual(test.value, 0)
         test.perform(#selector(TestClass1.noop))
         //test.noop() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
         XCTAssertEqual(test.value, 8)
@@ -224,11 +200,11 @@ class MethodNotificationCenterTests: XCTestCase {
 
     func testInvalidateObserverOnDealloc() {
         let test = TestClass1()
-
-        let unmanagedObserver = Unmanaged.passUnretained(MethodNotificationCenter.addObserver(for: #selector(TestClass1.increment), object:test) { notification in
+        let unmanagedObserver = Unmanaged.passUnretained(MethodNotificationCenter.addObserver(for: #selector(TestClass1.increment), object: test) { notification in
             XCTAssertEqual(test.value, (notification.isPriorToMethodCall ? 0 : 2))
             test.value += 1
-        }.invalidateOnDealloc())
+        }
+        .invalidateOnDealloc())
 
         XCTAssertEqual(test.value, 0)
         test.perform(#selector(TestClass1.increment))
@@ -238,5 +214,41 @@ class MethodNotificationCenterTests: XCTestCase {
         test.perform(#selector(TestClass1.increment))
         //test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
         XCTAssertEqual(test.value, 4)
+    }
+}
+
+// MARK: - TestClass1 Definition
+
+@objc class TestClass1: NSObject {
+    var value: Int = 0
+
+    @objc func increment() {
+        value += 1
+    }
+    @objc func incrementBy2() {
+        value += 2
+    }
+    @objc func noop() {
+        /* Nothing to do */
+    }
+}
+
+// MARK: - TestClass2 Definition
+
+@objc class TestClass2: NSObject {
+    var value: Int = 0
+
+    @objc func increment() {
+        value += 1
+    }
+}
+
+// MARK: - TestClass3 Definition
+
+@objc class TestClass3: NSObject {
+    var value: Int = 0
+
+    @objc func increment() {
+        value += 1
     }
 }

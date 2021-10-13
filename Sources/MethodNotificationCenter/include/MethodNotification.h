@@ -2,7 +2,7 @@
 //  MethodNotification.h
 //  MethodNotificationCenter
 //
-//  Copyright © 2020 SomeRandomiOSDev. All rights reserved.
+//  Copyright © 2021 SomeRandomiOSDev. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

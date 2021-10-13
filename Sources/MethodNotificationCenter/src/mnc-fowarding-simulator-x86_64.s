@@ -1,7 +1,7 @@
 // Copied from https://opensource.apple.com/source/objc4/objc4-779.1/
 
 #include <TargetConditionals.h>
-#if __x86_64__  &&  TARGET_OS_SIMULATOR  &&  !TARGET_OS_IOSMAC
+#if __x86_64__  &&  TARGET_OS_SIMULATOR  &&  !(defined(TARGET_OS_IOSMAC) && TARGET_OS_IOSMAC)
 
 .macro STATIC_ENTRY
     .text

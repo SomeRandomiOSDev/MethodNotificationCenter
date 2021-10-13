@@ -16,15 +16,15 @@
       <CodeCoverageTargets>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD86D53C23D11B3E0046E63E"
+            BlueprintIdentifier = "DD86D5C323D11D140046E63E"
             BuildableName = "MethodNotificationCenter.framework"
-            BlueprintName = "MethodNotificationCenter"
+            BlueprintName = "MethodNotificationCenter watchOS"
             ReferencedContainer = "container:MethodNotificationCenter.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
       <TestPlans>
          <TestPlanReference
-            reference = "container:Tests/Test Plans/MethodNotificationCenterTests.xctestplan"
+            reference = "container:Tests/Test Plans/MethodNotificationCenter watchOS Tests.xctestplan"
             default = "YES">
          </TestPlanReference>
       </TestPlans>
@@ -33,9 +33,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD86D54523D11B3E0046E63E"
-               BuildableName = "MethodNotificationCenterTests.xctest"
-               BlueprintName = "MethodNotificationCenterTests"
+               BlueprintIdentifier = "DD48BC93270E0DE800D842BC"
+               BuildableName = "TestProjectTests.xctest"
+               BlueprintName = "MethodNotificationCenter watchOS Tests"
                ReferencedContainer = "container:MethodNotificationCenter.xcodeproj">
             </BuildableReference>
          </TestableReference>

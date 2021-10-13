@@ -16,7 +16,7 @@ LExit$0:
 
 
 
-STATIC_ENTRY __objc_msgForward_impcache
+STATIC_ENTRY __mnc_msgForward
 // Method cache version
 
 // THIS IS NOT A CALLABLE C FUNCTION

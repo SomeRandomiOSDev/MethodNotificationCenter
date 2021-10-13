@@ -1,0 +1,5 @@
+framework module MethodNotificationCenter {
+  header "MethodNotificationCenter.h"
+  header "MethodNotificationObservable.h"
+  header "MethodNotification.h"
+}

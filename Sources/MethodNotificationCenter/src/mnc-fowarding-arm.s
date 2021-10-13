@@ -1,6 +1,6 @@
 // Copied from https://opensource.apple.com/source/objc4/objc4-779.1/
 
-#ifdef __arm__
+#if defined(__arm__) && !(defined(__ARM_ARCH_7A__) || defined(__ARM_ARCH_7S__) || defined(__ARM_ARCH_7K__))
 #include <arm/arch.h>
 
 .macro STATIC_ENTRY /*name*/

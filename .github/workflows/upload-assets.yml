@@ -1,0 +1,49 @@
+name: Upload Assets
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    name: Upload Assets
+    runs-on: macOS-latest
+    env:
+      TMPDIR: /tmp/.methodnotificationcenter.xcframework.build
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+
+    - name: Build
+      run: |
+        ./scripts/xcframework.sh -output ${TMPDIR}/MethodNotificationCenter.xcframework
+
+    - name: Create Zip
+      run: |
+        cd ${TMPDIR}
+        zip -rX MethodNotificationCenter.xcframework.zip MethodNotificationCenter.xcframework
+
+    - name: Upload Zip
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ github.event.release.upload_url }}
+        asset_path: ${{ env.TMPDIR }}/MethodNotificationCenter.xcframework.zip
+        asset_name: MethodNotificationCenter.xcframework.zip
+        asset_content_type: application/zip
+
+    - name: Create Tar
+      run: |
+        cd ${TMPDIR}
+        tar -zcvf MethodNotificationCenter.xcframework.tar.gz MethodNotificationCenter.xcframework
+
+    - name: Upload Tar
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ github.event.release.upload_url }}
+        asset_path: ${{ env.TMPDIR }}/MethodNotificationCenter.xcframework.tar.gz
+        asset_name: MethodNotificationCenter.xcframework.tar.gz
+        asset_content_type: application/gzip
