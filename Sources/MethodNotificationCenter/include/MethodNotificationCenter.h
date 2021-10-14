@@ -2,15 +2,14 @@
 //  MethodNotificationCenter.h
 //  MethodNotificationCenter
 //
-//  Copyright © 2020 SomeRandomiOSDev. All rights reserved.
+//  Copyright © 2021 SomeRandomiOSDev. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-#import "MethodNotification.h"
-#import "MethodNotificationObservable.h"
-
 NS_ASSUME_NONNULL_BEGIN
+
+@class MethodNotification, MethodNotificationObservable;
 
 @interface MethodNotificationCenter: NSObject
 

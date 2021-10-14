@@ -5,13 +5,14 @@ let package = Package(
     name: "MethodNotificationCenter",
 
     platforms: [
-        .iOS("11.0"),
+        .iOS("9.0"),
         .macOS("10.10"),
-        .tvOS("9.0")
+        .tvOS("9.0"),
+        .watchOS("2.0")
     ],
 
     products: [
-        .library(name: "MethodNotificationCenter", targets: ["MethodNotificationCenter"]),
+        .library(name: "MethodNotificationCenter", targets: ["MethodNotificationCenter"])
     ],
 
     targets: [

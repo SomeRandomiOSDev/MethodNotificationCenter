@@ -2,11 +2,13 @@
 //  MethodNotificationCenter.m
 //  MethodNotificationCenter
 //
-//  Copyright © 2020 SomeRandomiOSDev. All rights reserved.
+//  Copyright © 2021 SomeRandomiOSDev. All rights reserved.
 //
 
 #import "MethodNotificationCenter.h"
 #import "MethodNotificationObservable.h"
+#import "MethodNotification.h"
+
 #import <dispatch/dispatch.h>
 #import <objc/runtime.h>
 

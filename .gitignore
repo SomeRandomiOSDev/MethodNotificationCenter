@@ -1,4 +1,6 @@
-.swiftpm
-IDEWorkspaceChecks.plist
-MethodNotificationCenter.xcodeproj/project.xcworkspace/xcuserdata
+MethodNotificationCenter.xcodeproj/project.xcworkspace
 MethodNotificationCenter.xcodeproj/xcuserdata
+
+.build
+.swiftpm
+scripts/build

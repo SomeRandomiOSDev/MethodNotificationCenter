@@ -2,12 +2,13 @@
 //  MethodNotificationCenterTests.m
 //  MethodNotificationCenterTests
 //
-//  Created by Joseph Newton on 3/7/20.
-//  Copyright © 2020 SomeRandomiOSDev. All rights reserved.
+//  Copyright © 2021 SomeRandomiOSDev. All rights reserved.
 //
 
-#import <XCTest/XCTest.h>
 @import MethodNotificationCenter;
+@import XCTest;
+
+// MARK: - TestClass1 Interface
 
 @interface TestClass1: NSObject
 @property (nonatomic, assign) NSInteger value;
@@ -16,10 +17,16 @@
 - (void)noop;
 @end
 
+// MARK: - MethodNotificationCenterTests Interface
+
 @interface MethodNotificationCenterTests : XCTestCase
 @end
 
+// MARK: - MethodNotificationCenterTests Implementation
+
 @implementation MethodNotificationCenterTests
+
+// MARK: Test Methods
 
 - (void)testRecivingNotifications {
     TestClass1 *test = [[TestClass1 alloc] init];
@@ -177,6 +184,8 @@
 }
 
 @end
+
+// MARK: - TestClass1 Implementation
 
 @implementation TestClass1
 
