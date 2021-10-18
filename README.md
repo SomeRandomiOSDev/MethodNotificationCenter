@@ -45,7 +45,7 @@ github "SomeRandomiOSDev/MethodNotificationCenter"
 To install via the Swift Package Manager add the following line to your `Package.swift` file's `dependencies`:
 
 ```swift
-.package(url: "https://github.com/SomeRandomiOSDev/MethodNotificationCenter.git", from: "1.0.0")
+.package(url: "https://github.com/SomeRandomiOSDev/MethodNotificationCenter.git", from: "0.1.1")
 ```
 
 Usage
