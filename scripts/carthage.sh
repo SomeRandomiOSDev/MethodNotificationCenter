@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#
 # Needed to circumvent an issue with Carthage version < 0.37.0: https://github.com/Carthage/Carthage/issues/3019
 #
 # carthage.sh

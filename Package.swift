@@ -17,7 +17,10 @@ let package = Package(
 
     targets: [
         .target(name: "MethodNotificationCenter"),
+
         .testTarget(name: "MethodNotificationCenterObjCTests", dependencies: ["MethodNotificationCenter"]),
         .testTarget(name: "MethodNotificationCenterSwiftTests", dependencies: ["MethodNotificationCenter"])
-    ]
+    ],
+
+    swiftLanguageVersions: [.version("5")]
 )
