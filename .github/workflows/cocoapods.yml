@@ -20,4 +20,4 @@ jobs:
 
     - name: Lint (Static Library)
       run: |
-        pod lib lint --use-libraries --skip-tests
+        pod lib lint --use-libraries

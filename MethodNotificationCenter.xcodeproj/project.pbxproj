@@ -32,70 +32,70 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		DD2952DD272867190096A94E /* MethodNotificationCenterSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2952DA272867190096A94E /* MethodNotificationCenterSwiftTests.swift */; };
+		DD2952DE272867190096A94E /* MethodNotificationCenterSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2952DA272867190096A94E /* MethodNotificationCenterSwiftTests.swift */; };
+		DD2952DF272867190096A94E /* MethodNotificationCenterSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2952DA272867190096A94E /* MethodNotificationCenterSwiftTests.swift */; };
+		DD2952E0272867190096A94E /* MethodNotificationCenterSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2952DA272867190096A94E /* MethodNotificationCenterSwiftTests.swift */; };
+		DD2952E1272867190096A94E /* MethodNotificationCenterObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2952DC272867190096A94E /* MethodNotificationCenterObjCTests.m */; };
+		DD2952E2272867190096A94E /* MethodNotificationCenterObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2952DC272867190096A94E /* MethodNotificationCenterObjCTests.m */; };
+		DD2952E3272867190096A94E /* MethodNotificationCenterObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2952DC272867190096A94E /* MethodNotificationCenterObjCTests.m */; };
+		DD2952E4272867190096A94E /* MethodNotificationCenterObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2952DC272867190096A94E /* MethodNotificationCenterObjCTests.m */; };
+		DD2952F7272867260096A94E /* mnc-fowarding-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952E6272867260096A94E /* mnc-fowarding-i386.s */; };
+		DD2952F8272867260096A94E /* mnc-fowarding-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952E6272867260096A94E /* mnc-fowarding-i386.s */; };
+		DD2952F9272867260096A94E /* mnc-fowarding-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952E6272867260096A94E /* mnc-fowarding-i386.s */; };
+		DD2952FA272867260096A94E /* mnc-fowarding-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952E6272867260096A94E /* mnc-fowarding-i386.s */; };
+		DD2952FB272867260096A94E /* MethodNotificationObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2952E7272867260096A94E /* MethodNotificationObservable.m */; };
+		DD2952FC272867260096A94E /* MethodNotificationObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2952E7272867260096A94E /* MethodNotificationObservable.m */; };
+		DD2952FD272867260096A94E /* MethodNotificationObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2952E7272867260096A94E /* MethodNotificationObservable.m */; };
+		DD2952FE272867260096A94E /* MethodNotificationObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2952E7272867260096A94E /* MethodNotificationObservable.m */; };
+		DD2952FF272867260096A94E /* mnc-fowarding-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952E8272867260096A94E /* mnc-fowarding-x86_64.s */; };
+		DD295300272867260096A94E /* mnc-fowarding-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952E8272867260096A94E /* mnc-fowarding-x86_64.s */; };
+		DD295301272867260096A94E /* mnc-fowarding-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952E8272867260096A94E /* mnc-fowarding-x86_64.s */; };
+		DD295302272867260096A94E /* mnc-fowarding-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952E8272867260096A94E /* mnc-fowarding-x86_64.s */; };
+		DD295303272867260096A94E /* mnc-fowarding-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952E9272867260096A94E /* mnc-fowarding-arm64.s */; };
+		DD295304272867260096A94E /* mnc-fowarding-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952E9272867260096A94E /* mnc-fowarding-arm64.s */; };
+		DD295305272867260096A94E /* mnc-fowarding-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952E9272867260096A94E /* mnc-fowarding-arm64.s */; };
+		DD295306272867260096A94E /* mnc-fowarding-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952E9272867260096A94E /* mnc-fowarding-arm64.s */; };
+		DD295307272867260096A94E /* mnc-fowarding-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952EA272867260096A94E /* mnc-fowarding-arm.s */; };
+		DD295308272867260096A94E /* mnc-fowarding-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952EA272867260096A94E /* mnc-fowarding-arm.s */; };
+		DD295309272867260096A94E /* mnc-fowarding-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952EA272867260096A94E /* mnc-fowarding-arm.s */; };
+		DD29530A272867260096A94E /* mnc-fowarding-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952EA272867260096A94E /* mnc-fowarding-arm.s */; };
+		DD29530B272867260096A94E /* mnc-fowarding-armv7.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952EB272867260096A94E /* mnc-fowarding-armv7.s */; };
+		DD29530C272867260096A94E /* mnc-fowarding-armv7.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952EB272867260096A94E /* mnc-fowarding-armv7.s */; };
+		DD29530D272867260096A94E /* mnc-fowarding-armv7.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952EB272867260096A94E /* mnc-fowarding-armv7.s */; };
+		DD29530E272867260096A94E /* mnc-fowarding-armv7.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952EB272867260096A94E /* mnc-fowarding-armv7.s */; };
+		DD29530F272867260096A94E /* MethodNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2952EC272867260096A94E /* MethodNotification.m */; };
+		DD295310272867260096A94E /* MethodNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2952EC272867260096A94E /* MethodNotification.m */; };
+		DD295311272867260096A94E /* MethodNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2952EC272867260096A94E /* MethodNotification.m */; };
+		DD295312272867260096A94E /* MethodNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2952EC272867260096A94E /* MethodNotification.m */; };
+		DD295313272867260096A94E /* mnc-fowarding-simulator-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952ED272867260096A94E /* mnc-fowarding-simulator-x86_64.s */; };
+		DD295314272867260096A94E /* mnc-fowarding-simulator-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952ED272867260096A94E /* mnc-fowarding-simulator-x86_64.s */; };
+		DD295315272867260096A94E /* mnc-fowarding-simulator-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952ED272867260096A94E /* mnc-fowarding-simulator-x86_64.s */; };
+		DD295316272867260096A94E /* mnc-fowarding-simulator-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952ED272867260096A94E /* mnc-fowarding-simulator-x86_64.s */; };
+		DD295317272867260096A94E /* mnc-fowarding-simulator-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952EE272867260096A94E /* mnc-fowarding-simulator-i386.s */; };
+		DD295318272867260096A94E /* mnc-fowarding-simulator-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952EE272867260096A94E /* mnc-fowarding-simulator-i386.s */; };
+		DD295319272867260096A94E /* mnc-fowarding-simulator-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952EE272867260096A94E /* mnc-fowarding-simulator-i386.s */; };
+		DD29531A272867260096A94E /* mnc-fowarding-simulator-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DD2952EE272867260096A94E /* mnc-fowarding-simulator-i386.s */; };
+		DD29531B272867260096A94E /* MethodNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2952EF272867260096A94E /* MethodNotificationCenter.m */; };
+		DD29531C272867260096A94E /* MethodNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2952EF272867260096A94E /* MethodNotificationCenter.m */; };
+		DD29531D272867260096A94E /* MethodNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2952EF272867260096A94E /* MethodNotificationCenter.m */; };
+		DD29531E272867260096A94E /* MethodNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2952EF272867260096A94E /* MethodNotificationCenter.m */; };
+		DD29531F272867270096A94E /* MethodNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2952F1272867260096A94E /* MethodNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD295320272867270096A94E /* MethodNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2952F1272867260096A94E /* MethodNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD295321272867270096A94E /* MethodNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2952F1272867260096A94E /* MethodNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD295322272867270096A94E /* MethodNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2952F1272867260096A94E /* MethodNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD295323272867270096A94E /* MethodNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2952F2272867260096A94E /* MethodNotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD295324272867270096A94E /* MethodNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2952F2272867260096A94E /* MethodNotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD295325272867270096A94E /* MethodNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2952F2272867260096A94E /* MethodNotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD295326272867270096A94E /* MethodNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2952F2272867260096A94E /* MethodNotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD295327272867270096A94E /* MethodNotificationObservable.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2952F3272867260096A94E /* MethodNotificationObservable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD295328272867270096A94E /* MethodNotificationObservable.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2952F3272867260096A94E /* MethodNotificationObservable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD295329272867270096A94E /* MethodNotificationObservable.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2952F3272867260096A94E /* MethodNotificationObservable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD29532A272867270096A94E /* MethodNotificationObservable.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2952F3272867260096A94E /* MethodNotificationObservable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD48BC98270E0DE800D842BC /* MethodNotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD86D5C423D11D140046E63E /* MethodNotificationCenter.framework */; };
 		DD86D54723D11B3E0046E63E /* MethodNotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD86D53D23D11B3E0046E63E /* MethodNotificationCenter.framework */; };
 		DD86D57923D11C860046E63E /* MethodNotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD86D57023D11C860046E63E /* MethodNotificationCenter.framework */; };
 		DD86D59523D11CA00046E63E /* MethodNotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD86D58C23D11CA00046E63E /* MethodNotificationCenter.framework */; };
-		DDDFA54127172E7A00B42F92 /* mnc-fowarding-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53227172E7900B42F92 /* mnc-fowarding-i386.s */; };
-		DDDFA54227172E7A00B42F92 /* mnc-fowarding-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53227172E7900B42F92 /* mnc-fowarding-i386.s */; };
-		DDDFA54327172E7A00B42F92 /* mnc-fowarding-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53227172E7900B42F92 /* mnc-fowarding-i386.s */; };
-		DDDFA54427172E7A00B42F92 /* mnc-fowarding-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53227172E7900B42F92 /* mnc-fowarding-i386.s */; };
-		DDDFA54527172E7A00B42F92 /* MethodNotificationObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53327172E7900B42F92 /* MethodNotificationObservable.m */; };
-		DDDFA54627172E7A00B42F92 /* MethodNotificationObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53327172E7900B42F92 /* MethodNotificationObservable.m */; };
-		DDDFA54727172E7A00B42F92 /* MethodNotificationObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53327172E7900B42F92 /* MethodNotificationObservable.m */; };
-		DDDFA54827172E7A00B42F92 /* MethodNotificationObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53327172E7900B42F92 /* MethodNotificationObservable.m */; };
-		DDDFA54927172E7A00B42F92 /* mnc-fowarding-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53427172E7900B42F92 /* mnc-fowarding-x86_64.s */; };
-		DDDFA54A27172E7A00B42F92 /* mnc-fowarding-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53427172E7900B42F92 /* mnc-fowarding-x86_64.s */; };
-		DDDFA54B27172E7A00B42F92 /* mnc-fowarding-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53427172E7900B42F92 /* mnc-fowarding-x86_64.s */; };
-		DDDFA54C27172E7A00B42F92 /* mnc-fowarding-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53427172E7900B42F92 /* mnc-fowarding-x86_64.s */; };
-		DDDFA54D27172E7A00B42F92 /* mnc-fowarding-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53527172E7900B42F92 /* mnc-fowarding-arm64.s */; };
-		DDDFA54E27172E7A00B42F92 /* mnc-fowarding-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53527172E7900B42F92 /* mnc-fowarding-arm64.s */; };
-		DDDFA54F27172E7A00B42F92 /* mnc-fowarding-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53527172E7900B42F92 /* mnc-fowarding-arm64.s */; };
-		DDDFA55027172E7A00B42F92 /* mnc-fowarding-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53527172E7900B42F92 /* mnc-fowarding-arm64.s */; };
-		DDDFA55127172E7A00B42F92 /* mnc-fowarding-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53627172E7900B42F92 /* mnc-fowarding-arm.s */; };
-		DDDFA55227172E7A00B42F92 /* mnc-fowarding-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53627172E7900B42F92 /* mnc-fowarding-arm.s */; };
-		DDDFA55327172E7A00B42F92 /* mnc-fowarding-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53627172E7900B42F92 /* mnc-fowarding-arm.s */; };
-		DDDFA55427172E7A00B42F92 /* mnc-fowarding-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53627172E7900B42F92 /* mnc-fowarding-arm.s */; };
-		DDDFA55527172E7A00B42F92 /* mnc-fowarding-armv7.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53727172E7900B42F92 /* mnc-fowarding-armv7.s */; };
-		DDDFA55627172E7A00B42F92 /* mnc-fowarding-armv7.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53727172E7900B42F92 /* mnc-fowarding-armv7.s */; };
-		DDDFA55727172E7A00B42F92 /* mnc-fowarding-armv7.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53727172E7900B42F92 /* mnc-fowarding-armv7.s */; };
-		DDDFA55827172E7A00B42F92 /* mnc-fowarding-armv7.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53727172E7900B42F92 /* mnc-fowarding-armv7.s */; };
-		DDDFA55927172E7A00B42F92 /* MethodNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53827172E7900B42F92 /* MethodNotification.m */; };
-		DDDFA55A27172E7A00B42F92 /* MethodNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53827172E7900B42F92 /* MethodNotification.m */; };
-		DDDFA55B27172E7A00B42F92 /* MethodNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53827172E7900B42F92 /* MethodNotification.m */; };
-		DDDFA55C27172E7A00B42F92 /* MethodNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53827172E7900B42F92 /* MethodNotification.m */; };
-		DDDFA55D27172E7A00B42F92 /* mnc-fowarding-simulator-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53927172E7900B42F92 /* mnc-fowarding-simulator-x86_64.s */; };
-		DDDFA55E27172E7A00B42F92 /* mnc-fowarding-simulator-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53927172E7900B42F92 /* mnc-fowarding-simulator-x86_64.s */; };
-		DDDFA55F27172E7A00B42F92 /* mnc-fowarding-simulator-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53927172E7900B42F92 /* mnc-fowarding-simulator-x86_64.s */; };
-		DDDFA56027172E7A00B42F92 /* mnc-fowarding-simulator-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53927172E7900B42F92 /* mnc-fowarding-simulator-x86_64.s */; };
-		DDDFA56127172E7A00B42F92 /* mnc-fowarding-simulator-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53A27172E7900B42F92 /* mnc-fowarding-simulator-i386.s */; };
-		DDDFA56227172E7A00B42F92 /* mnc-fowarding-simulator-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53A27172E7900B42F92 /* mnc-fowarding-simulator-i386.s */; };
-		DDDFA56327172E7A00B42F92 /* mnc-fowarding-simulator-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53A27172E7900B42F92 /* mnc-fowarding-simulator-i386.s */; };
-		DDDFA56427172E7A00B42F92 /* mnc-fowarding-simulator-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53A27172E7900B42F92 /* mnc-fowarding-simulator-i386.s */; };
-		DDDFA56527172E7A00B42F92 /* MethodNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53B27172E7900B42F92 /* MethodNotificationCenter.m */; };
-		DDDFA56627172E7A00B42F92 /* MethodNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53B27172E7900B42F92 /* MethodNotificationCenter.m */; };
-		DDDFA56727172E7A00B42F92 /* MethodNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53B27172E7900B42F92 /* MethodNotificationCenter.m */; };
-		DDDFA56827172E7A00B42F92 /* MethodNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA53B27172E7900B42F92 /* MethodNotificationCenter.m */; };
-		DDDFA56927172E7A00B42F92 /* MethodNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDFA53D27172E7900B42F92 /* MethodNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDDFA56A27172E7A00B42F92 /* MethodNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDFA53D27172E7900B42F92 /* MethodNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDDFA56B27172E7A00B42F92 /* MethodNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDFA53D27172E7900B42F92 /* MethodNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDDFA56C27172E7A00B42F92 /* MethodNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDFA53D27172E7900B42F92 /* MethodNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDDFA56D27172E7A00B42F92 /* MethodNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDFA53E27172E7900B42F92 /* MethodNotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDDFA56E27172E7A00B42F92 /* MethodNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDFA53E27172E7900B42F92 /* MethodNotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDDFA56F27172E7A00B42F92 /* MethodNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDFA53E27172E7900B42F92 /* MethodNotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDDFA57027172E7A00B42F92 /* MethodNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDFA53E27172E7900B42F92 /* MethodNotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDDFA57127172E7A00B42F92 /* MethodNotificationObservable.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDFA53F27172E7900B42F92 /* MethodNotificationObservable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDDFA57227172E7A00B42F92 /* MethodNotificationObservable.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDFA53F27172E7900B42F92 /* MethodNotificationObservable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDDFA57327172E7A00B42F92 /* MethodNotificationObservable.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDFA53F27172E7900B42F92 /* MethodNotificationObservable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDDFA57427172E7A00B42F92 /* MethodNotificationObservable.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDFA53F27172E7900B42F92 /* MethodNotificationObservable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDDFA57A27172F0800B42F92 /* MethodNotificationCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA57727172F0800B42F92 /* MethodNotificationCenterTests.swift */; };
-		DDDFA57B27172F0800B42F92 /* MethodNotificationCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA57727172F0800B42F92 /* MethodNotificationCenterTests.swift */; };
-		DDDFA57C27172F0800B42F92 /* MethodNotificationCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA57727172F0800B42F92 /* MethodNotificationCenterTests.swift */; };
-		DDDFA57D27172F0800B42F92 /* MethodNotificationCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA57727172F0800B42F92 /* MethodNotificationCenterTests.swift */; };
-		DDDFA57E27172F0800B42F92 /* MethodNotificationCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA57927172F0800B42F92 /* MethodNotificationCenterTests.m */; };
-		DDDFA57F27172F0800B42F92 /* MethodNotificationCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA57927172F0800B42F92 /* MethodNotificationCenterTests.m */; };
-		DDDFA58027172F0800B42F92 /* MethodNotificationCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA57927172F0800B42F92 /* MethodNotificationCenterTests.m */; };
-		DDDFA58127172F0800B42F92 /* MethodNotificationCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDFA57927172F0800B42F92 /* MethodNotificationCenterTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,6 +159,23 @@
 
 /* Begin PBXFileReference section */
 		DD17A9F9257744BC00D30599 /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scripts; sourceTree = "<group>"; };
+		DD2952DA272867190096A94E /* MethodNotificationCenterSwiftTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MethodNotificationCenterSwiftTests.swift; sourceTree = "<group>"; };
+		DD2952DC272867190096A94E /* MethodNotificationCenterObjCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodNotificationCenterObjCTests.m; sourceTree = "<group>"; };
+		DD2952E6272867260096A94E /* mnc-fowarding-i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "mnc-fowarding-i386.s"; sourceTree = "<group>"; };
+		DD2952E7272867260096A94E /* MethodNotificationObservable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodNotificationObservable.m; sourceTree = "<group>"; };
+		DD2952E8272867260096A94E /* mnc-fowarding-x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "mnc-fowarding-x86_64.s"; sourceTree = "<group>"; };
+		DD2952E9272867260096A94E /* mnc-fowarding-arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "mnc-fowarding-arm64.s"; sourceTree = "<group>"; };
+		DD2952EA272867260096A94E /* mnc-fowarding-arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "mnc-fowarding-arm.s"; sourceTree = "<group>"; };
+		DD2952EB272867260096A94E /* mnc-fowarding-armv7.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "mnc-fowarding-armv7.s"; sourceTree = "<group>"; };
+		DD2952EC272867260096A94E /* MethodNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodNotification.m; sourceTree = "<group>"; };
+		DD2952ED272867260096A94E /* mnc-fowarding-simulator-x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "mnc-fowarding-simulator-x86_64.s"; sourceTree = "<group>"; };
+		DD2952EE272867260096A94E /* mnc-fowarding-simulator-i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "mnc-fowarding-simulator-i386.s"; sourceTree = "<group>"; };
+		DD2952EF272867260096A94E /* MethodNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodNotificationCenter.m; sourceTree = "<group>"; };
+		DD2952F1272867260096A94E /* MethodNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodNotification.h; sourceTree = "<group>"; };
+		DD2952F2272867260096A94E /* MethodNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodNotificationCenter.h; sourceTree = "<group>"; };
+		DD2952F3272867260096A94E /* MethodNotificationObservable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodNotificationObservable.h; sourceTree = "<group>"; };
+		DD2952F4272867260096A94E /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		DD2952F6272867260096A94E /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		DD48BC94270E0DE800D842BC /* MethodNotificationCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MethodNotificationCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD48BC9F270E0F4500D842BC /* MethodNotificationCenterTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MethodNotificationCenterTests.xctestplan; sourceTree = "<group>"; };
 		DD48BCA0270E0F9A00D842BC /* MethodNotificationCenter macOS Tests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "MethodNotificationCenter macOS Tests.xctestplan"; sourceTree = "<group>"; };
@@ -180,23 +197,6 @@
 		DD86D5E323D22DC30046E63E /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		DDA26DBD256EA4D700E1C6D7 /* workflows */ = {isa = PBXFileReference; lastKnownFileType = folder; name = workflows; path = .github/workflows; sourceTree = "<group>"; };
 		DDB1DE5C2405EEE300C20FED /* codecov.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codecov.yml; sourceTree = "<group>"; };
-		DDDFA53227172E7900B42F92 /* mnc-fowarding-i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "mnc-fowarding-i386.s"; sourceTree = "<group>"; };
-		DDDFA53327172E7900B42F92 /* MethodNotificationObservable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodNotificationObservable.m; sourceTree = "<group>"; };
-		DDDFA53427172E7900B42F92 /* mnc-fowarding-x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "mnc-fowarding-x86_64.s"; sourceTree = "<group>"; };
-		DDDFA53527172E7900B42F92 /* mnc-fowarding-arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "mnc-fowarding-arm64.s"; sourceTree = "<group>"; };
-		DDDFA53627172E7900B42F92 /* mnc-fowarding-arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "mnc-fowarding-arm.s"; sourceTree = "<group>"; };
-		DDDFA53727172E7900B42F92 /* mnc-fowarding-armv7.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "mnc-fowarding-armv7.s"; sourceTree = "<group>"; };
-		DDDFA53827172E7900B42F92 /* MethodNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodNotification.m; sourceTree = "<group>"; };
-		DDDFA53927172E7900B42F92 /* mnc-fowarding-simulator-x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "mnc-fowarding-simulator-x86_64.s"; sourceTree = "<group>"; };
-		DDDFA53A27172E7900B42F92 /* mnc-fowarding-simulator-i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "mnc-fowarding-simulator-i386.s"; sourceTree = "<group>"; };
-		DDDFA53B27172E7900B42F92 /* MethodNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodNotificationCenter.m; sourceTree = "<group>"; };
-		DDDFA53D27172E7900B42F92 /* MethodNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodNotification.h; sourceTree = "<group>"; };
-		DDDFA53E27172E7900B42F92 /* MethodNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodNotificationCenter.h; sourceTree = "<group>"; };
-		DDDFA53F27172E7900B42F92 /* MethodNotificationObservable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodNotificationObservable.h; sourceTree = "<group>"; };
-		DDDFA54027172E7900B42F92 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		DDDFA57727172F0800B42F92 /* MethodNotificationCenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MethodNotificationCenterTests.swift; sourceTree = "<group>"; };
-		DDDFA57927172F0800B42F92 /* MethodNotificationCenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodNotificationCenterTests.m; sourceTree = "<group>"; };
-		DDDFA5832717451500B42F92 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +263,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD2952D9272867190096A94E /* MethodNotificationCenterSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD2952DA272867190096A94E /* MethodNotificationCenterSwiftTests.swift */,
+			);
+			path = MethodNotificationCenterSwiftTests;
+			sourceTree = "<group>";
+		};
+		DD2952DB272867190096A94E /* MethodNotificationCenterObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD2952DC272867190096A94E /* MethodNotificationCenterObjCTests.m */,
+			);
+			path = MethodNotificationCenterObjCTests;
+			sourceTree = "<group>";
+		};
+		DD2952E5272867260096A94E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DD2952EC272867260096A94E /* MethodNotification.m */,
+				DD2952EF272867260096A94E /* MethodNotificationCenter.m */,
+				DD2952E7272867260096A94E /* MethodNotificationObservable.m */,
+				DD29532B272867410096A94E /* assembly */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		DD2952F0272867260096A94E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				DD2952F1272867260096A94E /* MethodNotification.h */,
+				DD2952F2272867260096A94E /* MethodNotificationCenter.h */,
+				DD2952F3272867260096A94E /* MethodNotificationObservable.h */,
+				DD2952F4272867260096A94E /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		DD2952F5272867260096A94E /* module */ = {
+			isa = PBXGroup;
+			children = (
+				DD2952F6272867260096A94E /* module.modulemap */,
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		DD29532B272867410096A94E /* assembly */ = {
+			isa = PBXGroup;
+			children = (
+				DD2952EA272867260096A94E /* mnc-fowarding-arm.s */,
+				DD2952E9272867260096A94E /* mnc-fowarding-arm64.s */,
+				DD2952EB272867260096A94E /* mnc-fowarding-armv7.s */,
+				DD2952E6272867260096A94E /* mnc-fowarding-i386.s */,
+				DD2952EE272867260096A94E /* mnc-fowarding-simulator-i386.s */,
+				DD2952ED272867260096A94E /* mnc-fowarding-simulator-x86_64.s */,
+				DD2952E8272867260096A94E /* mnc-fowarding-x86_64.s */,
+			);
+			path = assembly;
+			sourceTree = "<group>";
+		};
 		DD48BC9E270E0F1300D842BC /* Test Plans */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,9 +337,9 @@
 		DD5D04E52621361600BA0FC2 /* MethodNotificationCenter */ = {
 			isa = PBXGroup;
 			children = (
-				DDDFA53C27172E7900B42F92 /* include */,
-				DDDFA5822717451500B42F92 /* module */,
-				DDDFA53127172E7900B42F92 /* src */,
+				DD2952F0272867260096A94E /* include */,
+				DD2952F5272867260096A94E /* module */,
+				DD2952E5272867260096A94E /* src */,
 			);
 			path = MethodNotificationCenter;
 			sourceTree = "<group>";
@@ -345,71 +405,11 @@
 		DDB1DE502405EE9900C20FED /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				DDDFA57827172F0800B42F92 /* MethodNotificationCenterObjCTests */,
-				DDDFA57627172F0800B42F92 /* MethodNotificationCenterSwiftTests */,
+				DD2952DB272867190096A94E /* MethodNotificationCenterObjCTests */,
+				DD2952D9272867190096A94E /* MethodNotificationCenterSwiftTests */,
 				DD48BC9E270E0F1300D842BC /* Test Plans */,
 			);
 			path = Tests;
-			sourceTree = "<group>";
-		};
-		DDDFA53127172E7900B42F92 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				DDDFA53827172E7900B42F92 /* MethodNotification.m */,
-				DDDFA53B27172E7900B42F92 /* MethodNotificationCenter.m */,
-				DDDFA53327172E7900B42F92 /* MethodNotificationObservable.m */,
-				DDDFA57527172E9D00B42F92 /* Assembly */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		DDDFA53C27172E7900B42F92 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				DDDFA53D27172E7900B42F92 /* MethodNotification.h */,
-				DDDFA53E27172E7900B42F92 /* MethodNotificationCenter.h */,
-				DDDFA53F27172E7900B42F92 /* MethodNotificationObservable.h */,
-				DDDFA54027172E7900B42F92 /* module.modulemap */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		DDDFA57527172E9D00B42F92 /* Assembly */ = {
-			isa = PBXGroup;
-			children = (
-				DDDFA53627172E7900B42F92 /* mnc-fowarding-arm.s */,
-				DDDFA53527172E7900B42F92 /* mnc-fowarding-arm64.s */,
-				DDDFA53727172E7900B42F92 /* mnc-fowarding-armv7.s */,
-				DDDFA53227172E7900B42F92 /* mnc-fowarding-i386.s */,
-				DDDFA53A27172E7900B42F92 /* mnc-fowarding-simulator-i386.s */,
-				DDDFA53927172E7900B42F92 /* mnc-fowarding-simulator-x86_64.s */,
-				DDDFA53427172E7900B42F92 /* mnc-fowarding-x86_64.s */,
-			);
-			name = Assembly;
-			sourceTree = "<group>";
-		};
-		DDDFA57627172F0800B42F92 /* MethodNotificationCenterSwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				DDDFA57727172F0800B42F92 /* MethodNotificationCenterTests.swift */,
-			);
-			path = MethodNotificationCenterSwiftTests;
-			sourceTree = "<group>";
-		};
-		DDDFA57827172F0800B42F92 /* MethodNotificationCenterObjCTests */ = {
-			isa = PBXGroup;
-			children = (
-				DDDFA57927172F0800B42F92 /* MethodNotificationCenterTests.m */,
-			);
-			path = MethodNotificationCenterObjCTests;
-			sourceTree = "<group>";
-		};
-		DDDFA5822717451500B42F92 /* module */ = {
-			isa = PBXGroup;
-			children = (
-				DDDFA5832717451500B42F92 /* module.modulemap */,
-			);
-			path = module;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,9 +419,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDDFA56927172E7A00B42F92 /* MethodNotification.h in Headers */,
-				DDDFA56D27172E7A00B42F92 /* MethodNotificationCenter.h in Headers */,
-				DDDFA57127172E7A00B42F92 /* MethodNotificationObservable.h in Headers */,
+				DD29531F272867270096A94E /* MethodNotification.h in Headers */,
+				DD295323272867270096A94E /* MethodNotificationCenter.h in Headers */,
+				DD295327272867270096A94E /* MethodNotificationObservable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,9 +429,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDDFA56A27172E7A00B42F92 /* MethodNotification.h in Headers */,
-				DDDFA56E27172E7A00B42F92 /* MethodNotificationCenter.h in Headers */,
-				DDDFA57227172E7A00B42F92 /* MethodNotificationObservable.h in Headers */,
+				DD295320272867270096A94E /* MethodNotification.h in Headers */,
+				DD295324272867270096A94E /* MethodNotificationCenter.h in Headers */,
+				DD295328272867270096A94E /* MethodNotificationObservable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,9 +439,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDDFA56B27172E7A00B42F92 /* MethodNotification.h in Headers */,
-				DDDFA56F27172E7A00B42F92 /* MethodNotificationCenter.h in Headers */,
-				DDDFA57327172E7A00B42F92 /* MethodNotificationObservable.h in Headers */,
+				DD295321272867270096A94E /* MethodNotification.h in Headers */,
+				DD295325272867270096A94E /* MethodNotificationCenter.h in Headers */,
+				DD295329272867270096A94E /* MethodNotificationObservable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,9 +449,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDDFA56C27172E7A00B42F92 /* MethodNotification.h in Headers */,
-				DDDFA57027172E7A00B42F92 /* MethodNotificationCenter.h in Headers */,
-				DDDFA57427172E7A00B42F92 /* MethodNotificationObservable.h in Headers */,
+				DD295322272867270096A94E /* MethodNotification.h in Headers */,
+				DD295326272867270096A94E /* MethodNotificationCenter.h in Headers */,
+				DD29532A272867270096A94E /* MethodNotificationObservable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -788,8 +788,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDDFA58127172F0800B42F92 /* MethodNotificationCenterTests.m in Sources */,
-				DDDFA57D27172F0800B42F92 /* MethodNotificationCenterTests.swift in Sources */,
+				DD2952E4272867190096A94E /* MethodNotificationCenterObjCTests.m in Sources */,
+				DD2952E0272867190096A94E /* MethodNotificationCenterSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -797,16 +797,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDDFA55927172E7A00B42F92 /* MethodNotification.m in Sources */,
-				DDDFA54527172E7A00B42F92 /* MethodNotificationObservable.m in Sources */,
-				DDDFA56527172E7A00B42F92 /* MethodNotificationCenter.m in Sources */,
-				DDDFA55127172E7A00B42F92 /* mnc-fowarding-arm.s in Sources */,
-				DDDFA56127172E7A00B42F92 /* mnc-fowarding-simulator-i386.s in Sources */,
-				DDDFA54D27172E7A00B42F92 /* mnc-fowarding-arm64.s in Sources */,
-				DDDFA55D27172E7A00B42F92 /* mnc-fowarding-simulator-x86_64.s in Sources */,
-				DDDFA54927172E7A00B42F92 /* mnc-fowarding-x86_64.s in Sources */,
-				DDDFA55527172E7A00B42F92 /* mnc-fowarding-armv7.s in Sources */,
-				DDDFA54127172E7A00B42F92 /* mnc-fowarding-i386.s in Sources */,
+				DD29530F272867260096A94E /* MethodNotification.m in Sources */,
+				DD2952FB272867260096A94E /* MethodNotificationObservable.m in Sources */,
+				DD29531B272867260096A94E /* MethodNotificationCenter.m in Sources */,
+				DD295307272867260096A94E /* mnc-fowarding-arm.s in Sources */,
+				DD295317272867260096A94E /* mnc-fowarding-simulator-i386.s in Sources */,
+				DD295303272867260096A94E /* mnc-fowarding-arm64.s in Sources */,
+				DD295313272867260096A94E /* mnc-fowarding-simulator-x86_64.s in Sources */,
+				DD2952FF272867260096A94E /* mnc-fowarding-x86_64.s in Sources */,
+				DD29530B272867260096A94E /* mnc-fowarding-armv7.s in Sources */,
+				DD2952F7272867260096A94E /* mnc-fowarding-i386.s in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -814,8 +814,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDDFA57E27172F0800B42F92 /* MethodNotificationCenterTests.m in Sources */,
-				DDDFA57A27172F0800B42F92 /* MethodNotificationCenterTests.swift in Sources */,
+				DD2952E1272867190096A94E /* MethodNotificationCenterObjCTests.m in Sources */,
+				DD2952DD272867190096A94E /* MethodNotificationCenterSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -823,16 +823,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDDFA55A27172E7A00B42F92 /* MethodNotification.m in Sources */,
-				DDDFA54627172E7A00B42F92 /* MethodNotificationObservable.m in Sources */,
-				DDDFA56627172E7A00B42F92 /* MethodNotificationCenter.m in Sources */,
-				DDDFA55227172E7A00B42F92 /* mnc-fowarding-arm.s in Sources */,
-				DDDFA56227172E7A00B42F92 /* mnc-fowarding-simulator-i386.s in Sources */,
-				DDDFA54E27172E7A00B42F92 /* mnc-fowarding-arm64.s in Sources */,
-				DDDFA55E27172E7A00B42F92 /* mnc-fowarding-simulator-x86_64.s in Sources */,
-				DDDFA54A27172E7A00B42F92 /* mnc-fowarding-x86_64.s in Sources */,
-				DDDFA55627172E7A00B42F92 /* mnc-fowarding-armv7.s in Sources */,
-				DDDFA54227172E7A00B42F92 /* mnc-fowarding-i386.s in Sources */,
+				DD295310272867260096A94E /* MethodNotification.m in Sources */,
+				DD2952FC272867260096A94E /* MethodNotificationObservable.m in Sources */,
+				DD29531C272867260096A94E /* MethodNotificationCenter.m in Sources */,
+				DD295308272867260096A94E /* mnc-fowarding-arm.s in Sources */,
+				DD295318272867260096A94E /* mnc-fowarding-simulator-i386.s in Sources */,
+				DD295304272867260096A94E /* mnc-fowarding-arm64.s in Sources */,
+				DD295314272867260096A94E /* mnc-fowarding-simulator-x86_64.s in Sources */,
+				DD295300272867260096A94E /* mnc-fowarding-x86_64.s in Sources */,
+				DD29530C272867260096A94E /* mnc-fowarding-armv7.s in Sources */,
+				DD2952F8272867260096A94E /* mnc-fowarding-i386.s in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -840,8 +840,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDDFA57F27172F0800B42F92 /* MethodNotificationCenterTests.m in Sources */,
-				DDDFA57B27172F0800B42F92 /* MethodNotificationCenterTests.swift in Sources */,
+				DD2952E2272867190096A94E /* MethodNotificationCenterObjCTests.m in Sources */,
+				DD2952DE272867190096A94E /* MethodNotificationCenterSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -849,16 +849,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDDFA55B27172E7A00B42F92 /* MethodNotification.m in Sources */,
-				DDDFA54727172E7A00B42F92 /* MethodNotificationObservable.m in Sources */,
-				DDDFA56727172E7A00B42F92 /* MethodNotificationCenter.m in Sources */,
-				DDDFA55327172E7A00B42F92 /* mnc-fowarding-arm.s in Sources */,
-				DDDFA56327172E7A00B42F92 /* mnc-fowarding-simulator-i386.s in Sources */,
-				DDDFA54F27172E7A00B42F92 /* mnc-fowarding-arm64.s in Sources */,
-				DDDFA55F27172E7A00B42F92 /* mnc-fowarding-simulator-x86_64.s in Sources */,
-				DDDFA54B27172E7A00B42F92 /* mnc-fowarding-x86_64.s in Sources */,
-				DDDFA55727172E7A00B42F92 /* mnc-fowarding-armv7.s in Sources */,
-				DDDFA54327172E7A00B42F92 /* mnc-fowarding-i386.s in Sources */,
+				DD295311272867260096A94E /* MethodNotification.m in Sources */,
+				DD2952FD272867260096A94E /* MethodNotificationObservable.m in Sources */,
+				DD29531D272867260096A94E /* MethodNotificationCenter.m in Sources */,
+				DD295309272867260096A94E /* mnc-fowarding-arm.s in Sources */,
+				DD295319272867260096A94E /* mnc-fowarding-simulator-i386.s in Sources */,
+				DD295305272867260096A94E /* mnc-fowarding-arm64.s in Sources */,
+				DD295315272867260096A94E /* mnc-fowarding-simulator-x86_64.s in Sources */,
+				DD295301272867260096A94E /* mnc-fowarding-x86_64.s in Sources */,
+				DD29530D272867260096A94E /* mnc-fowarding-armv7.s in Sources */,
+				DD2952F9272867260096A94E /* mnc-fowarding-i386.s in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -866,8 +866,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDDFA58027172F0800B42F92 /* MethodNotificationCenterTests.m in Sources */,
-				DDDFA57C27172F0800B42F92 /* MethodNotificationCenterTests.swift in Sources */,
+				DD2952E3272867190096A94E /* MethodNotificationCenterObjCTests.m in Sources */,
+				DD2952DF272867190096A94E /* MethodNotificationCenterSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -875,16 +875,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDDFA55C27172E7A00B42F92 /* MethodNotification.m in Sources */,
-				DDDFA54827172E7A00B42F92 /* MethodNotificationObservable.m in Sources */,
-				DDDFA56827172E7A00B42F92 /* MethodNotificationCenter.m in Sources */,
-				DDDFA55427172E7A00B42F92 /* mnc-fowarding-arm.s in Sources */,
-				DDDFA56427172E7A00B42F92 /* mnc-fowarding-simulator-i386.s in Sources */,
-				DDDFA55027172E7A00B42F92 /* mnc-fowarding-arm64.s in Sources */,
-				DDDFA56027172E7A00B42F92 /* mnc-fowarding-simulator-x86_64.s in Sources */,
-				DDDFA54C27172E7A00B42F92 /* mnc-fowarding-x86_64.s in Sources */,
-				DDDFA55827172E7A00B42F92 /* mnc-fowarding-armv7.s in Sources */,
-				DDDFA54427172E7A00B42F92 /* mnc-fowarding-i386.s in Sources */,
+				DD295312272867260096A94E /* MethodNotification.m in Sources */,
+				DD2952FE272867260096A94E /* MethodNotificationObservable.m in Sources */,
+				DD29531E272867260096A94E /* MethodNotificationCenter.m in Sources */,
+				DD29530A272867260096A94E /* mnc-fowarding-arm.s in Sources */,
+				DD29531A272867260096A94E /* mnc-fowarding-simulator-i386.s in Sources */,
+				DD295306272867260096A94E /* mnc-fowarding-arm64.s in Sources */,
+				DD295316272867260096A94E /* mnc-fowarding-simulator-x86_64.s in Sources */,
+				DD295302272867260096A94E /* mnc-fowarding-x86_64.s in Sources */,
+				DD29530E272867260096A94E /* mnc-fowarding-armv7.s in Sources */,
+				DD2952FA272867260096A94E /* mnc-fowarding-i386.s in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

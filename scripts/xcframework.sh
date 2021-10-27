@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#
 # xcframework.sh
 # Usage example: ./xcframework.sh -output <some_path>/MethodNotificationCenter.xcframework
 

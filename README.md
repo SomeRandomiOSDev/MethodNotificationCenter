@@ -1,5 +1,4 @@
-MethodNotificationCenter
-========
+# MethodNotificationCenter
 Objective-C Runtime Injection
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d30d31c29f17449481b97a04610ff5b9)](https://app.codacy.com/app/SomeRandomiOSDev/MethodNotificationCenter?utm_source=github.com&utm_medium=referral&utm_content=SomeRandomiOSDev/MethodNotificationCenter&utm_campaign=Badge_Grade_Dashboard)
@@ -25,8 +24,7 @@ This library allows one to be notified, in a fashion very similar to Foundation'
 
 It should be noted that this library is for _educational purposes_ only. The way in which this library operates not only makes it volatile and unsuitable to production releases, but use of it would likely not pass Apple's App Store review (untested).
 
-Installation
---------
+## Installation
 
 **MethodNotificationCenter** is available through [CocoaPods](https://cocoapods.org), [Carthage](https://github.com/Carthage/Carthage) and the [Swift Package Manager](https://swift.org/package-manager/). 
 
@@ -45,11 +43,10 @@ github "SomeRandomiOSDev/MethodNotificationCenter"
 To install via the Swift Package Manager add the following line to your `Package.swift` file's `dependencies`:
 
 ```swift
-.package(url: "https://github.com/SomeRandomiOSDev/MethodNotificationCenter.git", from: "0.1.1")
+.package(url: "https://github.com/SomeRandomiOSDev/MethodNotificationCenter.git", from: "0.1.0")
 ```
 
-Usage
---------
+## Usage
 
 First import **MethodNotificationCenter** at the top of your source file:
 
@@ -109,17 +106,14 @@ There are some notable limitations to the capabilities of this library:
 * Method notifications aren't sent recursively. That is, you'll receive a notification for the "top-level" call of the given method, but if the method (or any of its internal method calls) calls the same method a notification will _not_ be sent for that.
 * Due to optimizations made by the Swift compiler, Swift calls to methods written in Swift (but annotated with the `@objc` attribute) are usually hard-coded by the compiler and don't use the Objective-C runtime, which prevent notifications from being sent. Classes written in Objective-C and called from Swift (or vice-versa) shouldn't have this issue. See `Tests/MethodNotificationCenterTests/MethodNotificationCenterSwiftTests/MethodNotificationCenterTests.swift` for examples.
 
-Contributing
---------
+## Contributing
 
 If you have need for a specific feature or you encounter a bug, please open an issue. If you extend the functionality of **MethodNotificationCenter** yourself or you feel like fixing a bug yourself, please submit a pull request.
 
-Author
---------
+## Author
 
 Joe Newton, somerandomiosdev@gmail.com
 
-License
---------
+## License
 
 **MethodNotificationCenter** is available under the MIT license. See the `LICENSE` file for more info.

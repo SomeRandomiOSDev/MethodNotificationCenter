@@ -1,5 +1,5 @@
 //
-//  MethodNotificationCenterTests.swift
+//  MethodNotificationCenterSwiftTests.swift
 //  MethodNotificationCenterTests
 //
 //  Copyright © 2021 SomeRandomiOSDev. All rights reserved.
@@ -8,13 +8,13 @@
 import MethodNotificationCenter
 import XCTest
 
-// MARK: - MethodNotificationCenterTests Definition
+// MARK: - MethodNotificationCenterSwiftTests Definition
 
-class MethodNotificationCenterTests: XCTestCase {
+class MethodNotificationCenterSwiftTests: XCTestCase {
 
     // MARK: Test Methods
 
-    func testRecivingNotifications1() {
+    func testReceivingNotifications1() {
         let test = TestClass1()
         let observer = MethodNotificationCenter.addObserver(for: #selector(TestClass1.increment), object: test) { notification in
             XCTAssertEqual(test.value, (notification.isPriorToMethodCall ? 0 : 2))
@@ -23,13 +23,13 @@ class MethodNotificationCenterTests: XCTestCase {
 
         XCTAssertEqual(test.value, 0)
         test.perform(#selector(TestClass1.increment))
-        //test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
+        // test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
         XCTAssertEqual(test.value, 3)
 
         MethodNotificationCenter.removeObserver(observer)
     }
 
-    func testRecivingNotifications2() {
+    func testReceivingNotifications2() {
         let test = TestClass2()
         let observer = MethodNotificationCenter.addObserver(for: #selector(TestClass1.increment), object: test) { notification in
             XCTAssertEqual(test.value, (notification.isPriorToMethodCall ? 0 : 2))
@@ -38,13 +38,13 @@ class MethodNotificationCenterTests: XCTestCase {
 
         XCTAssertEqual(test.value, 0)
         test.perform(#selector(TestClass1.increment))
-        //test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
+        // test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
         XCTAssertEqual(test.value, 3)
 
         MethodNotificationCenter.removeObserver(observer)
     }
 
-    func testRecivingNotifications3() {
+    func testReceivingNotifications3() {
         let test = TestClass3()
         let observer = MethodNotificationCenter.addObserver(for: #selector(TestClass1.increment), object: test) { notification in
             XCTAssertEqual(test.value, (notification.isPriorToMethodCall ? 0 : 2))
@@ -53,7 +53,7 @@ class MethodNotificationCenterTests: XCTestCase {
 
         XCTAssertEqual(test.value, 0)
         test.perform(#selector(TestClass1.increment))
-        //test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
+        // test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
         XCTAssertEqual(test.value, 3)
 
         MethodNotificationCenter.removeObserver(observer)
@@ -76,8 +76,8 @@ class MethodNotificationCenterTests: XCTestCase {
         XCTAssertEqual(test2.value, 0)
         test.perform(#selector(TestClass1.increment))
         test2.perform(#selector(TestClass1.increment))
-        //test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
-        //test2.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
+        // test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
+        // test2.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
         XCTAssertEqual(test.value, 3)
         XCTAssertEqual(test2.value, 3)
 
@@ -99,18 +99,18 @@ class MethodNotificationCenterTests: XCTestCase {
 
         XCTAssertEqual(test.value, 0)
         test.perform(#selector(TestClass1.increment))
-        //test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
+        // test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
         XCTAssertEqual(test.value, 3)
         test.perform(#selector(TestClass1.incrementBy2))
-        //test.incrementBy2() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
+        // test.incrementBy2() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
         XCTAssertEqual(test.value, 7)
         MethodNotificationCenter.removeObserver(observer2)
         test.perform(#selector(TestClass1.incrementBy2))
-        //test.incrementBy2() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
+        // test.incrementBy2() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
         XCTAssertEqual(test.value, 9)
         MethodNotificationCenter.removeObserver(observer)
         test.perform(#selector(TestClass1.increment))
-        //test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
+        // test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
         XCTAssertEqual(test.value, 10)
     }
 
@@ -139,30 +139,30 @@ class MethodNotificationCenterTests: XCTestCase {
         XCTAssertEqual(test2.value, 0)
         test.perform(#selector(TestClass1.increment))
         test2.perform(#selector(TestClass1.increment))
-        //test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
-        //test2.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
+        // test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
+        // test2.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
         XCTAssertEqual(test.value, 3)
         XCTAssertEqual(test2.value, 3)
         test.perform(#selector(TestClass1.incrementBy2))
         test2.perform(#selector(TestClass1.incrementBy2))
-        //test.incrementBy2() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
-        //test2.incrementBy2() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
+        // test.incrementBy2() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
+        // test2.incrementBy2() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
         XCTAssertEqual(test.value, 7)
         XCTAssertEqual(test2.value, 7)
         MethodNotificationCenter.removeObserver(observer2)
         MethodNotificationCenter.removeObserver(observer4)
         test.perform(#selector(TestClass1.incrementBy2))
         test2.perform(#selector(TestClass1.incrementBy2))
-        //test.incrementBy2() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
-        //test2.incrementBy2() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
+        // test.incrementBy2() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
+        // test2.incrementBy2() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
         XCTAssertEqual(test.value, 9)
         XCTAssertEqual(test2.value, 9)
         MethodNotificationCenter.removeObserver(observer)
         MethodNotificationCenter.removeObserver(observer3)
         test.perform(#selector(TestClass1.increment))
         test2.perform(#selector(TestClass1.increment))
-        //test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
-        //test2.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
+        // test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
+        // test2.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
         XCTAssertEqual(test.value, 10)
         XCTAssertEqual(test2.value, 10)
     }
@@ -189,7 +189,7 @@ class MethodNotificationCenterTests: XCTestCase {
 
         XCTAssertEqual(test.value, 0)
         test.perform(#selector(TestClass1.noop))
-        //test.noop() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
+        // test.noop() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
         XCTAssertEqual(test.value, 8)
 
         MethodNotificationCenter.removeObserver(observer)
@@ -208,11 +208,11 @@ class MethodNotificationCenterTests: XCTestCase {
 
         XCTAssertEqual(test.value, 0)
         test.perform(#selector(TestClass1.increment))
-        //test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
+        // test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
         XCTAssertEqual(test.value, 3)
         unmanagedObserver.release() // causes observer to be overreleased, but that's okay for our unit testing
         test.perform(#selector(TestClass1.increment))
-        //test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
+        // test.increment() // Can't call directly in Swift as the complier will skip the ObjC runtime and call the Swift function directly
         XCTAssertEqual(test.value, 4)
     }
 }

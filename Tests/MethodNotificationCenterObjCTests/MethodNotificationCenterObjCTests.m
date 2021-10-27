@@ -1,5 +1,5 @@
 //
-//  MethodNotificationCenterTests.m
+//  MethodNotificationCenterObjCTests.m
 //  MethodNotificationCenterTests
 //
 //  Copyright © 2021 SomeRandomiOSDev. All rights reserved.
@@ -17,18 +17,18 @@
 - (void)noop;
 @end
 
-// MARK: - MethodNotificationCenterTests Interface
+// MARK: - MethodNotificationCenterObjCTests Interface
 
-@interface MethodNotificationCenterTests : XCTestCase
+@interface MethodNotificationCenterObjCTests : XCTestCase
 @end
 
-// MARK: - MethodNotificationCenterTests Implementation
+// MARK: - MethodNotificationCenterObjCTests Implementation
 
-@implementation MethodNotificationCenterTests
+@implementation MethodNotificationCenterObjCTests
 
 // MARK: Test Methods
 
-- (void)testRecivingNotifications {
+- (void)testReceivingNotifications {
     TestClass1 *test = [[TestClass1 alloc] init];
 
     id observer = [MethodNotificationCenter addObserverForSelector:@selector(increment) object:test callback:^(MethodNotification *notification) {
